@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoBlazeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemoBlazeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="project_TestNG.DemoBlazeProject">
+        <methods>
+          <include name="addToCart"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- project_TestNG.DemoBlazeProject -->
+    </classes>
+  </test> <!-- DemoBlazeTest(failed) -->
+</suite> <!-- Failed suite [DemoBlazeSuite] -->
